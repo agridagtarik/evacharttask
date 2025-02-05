@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "jsx": "preserve",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "types": [
+            "vite/client"
+        ],
+        "lib": [
+            "ES2015",
+            "DOM"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "src",
+        "vite-env.d.ts"
+    ]
+}
